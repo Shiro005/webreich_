@@ -12,11 +12,11 @@ const { Client } = require('pg');
 const { Pool } = require('pg');
 
 const pool = new Pool({
-    user: 'jhvnszuj',
-    host: 'manny.db.elephantsql.com',
-    database: 'jhvnszuj',
-    password: '5N0OwGkPL7u3MTIcMxO3fJqo6saFBLZs',
-    port: 5432,
+    user: 'Your_username',
+    host: 'Your Host Name',
+    database: 'Your Datbase Name',
+    password: 'Your Password',
+    port: 'Your Post',
 });
 
 // Create Express app
